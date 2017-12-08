@@ -262,9 +262,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AWServicioApi.AD\AWServicioApi.AD.csproj">
-      <Project>{10180eda-3608-449d-a8b1-e5d6506a5b95}</Project>
-      <Name>AWServicioApi.AD</Name>
+    <ProjectReference Include="..\WcfService\WcfService.csproj">
+      <Project>{8af55cd8-0b35-4bcc-86f1-4701ded16ab1}</Project>
+      <Name>WcfService</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

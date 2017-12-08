@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWServicioApi.APP", "AWServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWServicioApi.AD", "AWServicioApi.AD\AWServicioApi.AD.csproj", "{10180EDA-3608-449D-A8B1-E5D6506A5B95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\WcfService.csproj", "{8AF55CD8-0B35-4BCC-86F1-4701DED16AB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{10180EDA-3608-449D-A8B1-E5D6506A5B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10180EDA-3608-449D-A8B1-E5D6506A5B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10180EDA-3608-449D-A8B1-E5D6506A5B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF55CD8-0B35-4BCC-86F1-4701DED16AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF55CD8-0B35-4BCC-86F1-4701DED16AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF55CD8-0B35-4BCC-86F1-4701DED16AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF55CD8-0B35-4BCC-86F1-4701DED16AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
