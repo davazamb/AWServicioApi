@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using AWServicioApi.AD;
+using WcfService.Models;
 
 namespace AWServicioApi.APP.Controllers
 {
@@ -12,14 +12,14 @@ namespace AWServicioApi.APP.Controllers
     {
         public IEnumerable<Employees> Get()
         {
-            using (EmployeeDBEntities entities = new EmployeeDBEntities())
+            using (EmployeeDBEntities2 entities = new EmployeeDBEntities2())
             {
                 return entities.Employees.ToList();
             }
         }
         public Employees Get(int id)
         {
-            using (EmployeeDBEntities entities = new EmployeeDBEntities())
+            using (EmployeeDBEntities2 entities = new EmployeeDBEntities2())
             {
                 return entities.Employees.FirstOrDefault(e => e.ID == id);
             }
